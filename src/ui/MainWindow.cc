@@ -1,4 +1,4 @@
-/****************************************************************************
+﻿/****************************************************************************
  *
  *   (c) 2009-2016 QGROUNDCONTROL PROJECT <http://www.qgroundcontrol.org>
  *
@@ -116,6 +116,7 @@ MainWindow::MainWindow()
 {
     _instance = this;
 
+    //你麻痹啊
     //-- Load fonts
     if(QFontDatabase::addApplicationFont(":/fonts/opensans") < 0) {
         qWarning() << "Could not load /fonts/opensans font";
